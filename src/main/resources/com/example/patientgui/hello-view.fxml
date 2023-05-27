@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.ColorInput?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="847.0" prefWidth="1405.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.patientgui.HelloController">
+   <children>
+      <Label layoutX="380.0" layoutY="290.0" text="Liste Des Patients" />
+      <TableView layoutX="50.0" layoutY="250.0" prefHeight="358.0" prefWidth="1200.0" fx:id="tableView">
+         <columns>
+         </columns>
+      </TableView>
+      <Label layoutX="43.0" layoutY="58.0" text="Nom_Patient" />
+      <TextField fx:id="nom" layoutX="173.0" layoutY="54.0" />
+      <Label layoutX="350.0" layoutY="58.0" text="Prenom_Patient" />
+      <TextField fx:id="prenom" layoutX="450.0" layoutY="54.0" />
+      <TextField fx:id="telephone" layoutX="450.0" layoutY="88.0" />
+      <Label layoutX="43.0" layoutY="88.0" text="Age_Patient" />
+      <Label layoutX="350.0" layoutY="88.0" text="Telephone_Patient" />
+      <TextField fx:id="age" layoutX="173.0" layoutY="84.0" />
+      <Label layoutX="200.0" layoutY="130.0" text="Type de Maladie " />
+      <TextField fx:id="type" layoutX="300.0" layoutY="130.0" />
+      <Button layoutX="130.0" layoutY="200.0" mnemonicParsing="false" text="Reset"  fx:id="resetButton" onAction="#onresetButtonClick"/>
+      <Button layoutX="10.0" layoutY="200.0" mnemonicParsing="false" text="import"  fx:id="import" onAction="#importText"/>
+      <Button layoutX="75.0" layoutY="200.0" mnemonicParsing="false" text="export"  fx:id="export" onAction="#exportText"/>
+      <Button layoutX="200.0" layoutY="200.0" mnemonicParsing="false" text="Save"  fx:id="saveButton" onAction="#onAddButtonClick"/>
+      <Label fx:id="Text" layoutX="524.0" layoutY="52.0" prefHeight="16.0" prefWidth="759.0" />
+      <Button layoutX="300.0" layoutY="200.0" mnemonicParsing="false" text="Modifier" onAction="#onUpdateButtonClick" />
+      <Button layoutX="400.0" layoutY="200.0" mnemonicParsing="false" text="Supprimer"  onAction="#ondeleteButtonClick"/>
+   </children>
+</Pane>

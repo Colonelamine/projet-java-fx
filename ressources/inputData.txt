@@ -1,0 +1,10 @@
+11/ Nadif/ Amine/ 77/ 23/ test
+18/ Nadif/ Amine/ 18/ 18/ Le patient présente une éruption cutanée généralisée, caractérisée par des plaques rouges et démangeantes sur tout le corps. Les lésions cutanées sont accompagnées de douleurs articulaires et musculaires, ainsi que d'une fièvre modérée.
+22/ nadif/ amine/ 22/ 22/ test
+23/ Nadif/ Amine/ 23/ 23/ test
+24/ haimeur/ hamza/ 24/ 24/ test
+25/ loriga/ soufiane/ 25/ 25/ test
+26/ marwan/ berhili/ 26/ 26/ test
+27/ missbah/ houssam/ 27/ 27/ test
+35/ prof1/ test/ 55/ 06666/ test
+36/ prof2/ teste/ 25/ 06666/ t

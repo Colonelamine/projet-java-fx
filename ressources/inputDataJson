@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1
+    "name": "Nadif",
+    "prenom": "amine",
+    "age": 25,
+    "tel": "068888888",
+    "type": "test",
+  },
+  {
+      "id": 2
+      "name": "Haimeur",
+      "prenom": "hamza",
+      "age": 25,
+      "tel": "06666666",
+      "type": "test",
+
+    },
+
+  ]
